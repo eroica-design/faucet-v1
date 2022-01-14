@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head lang="ko">
+    <title>Medium Faucet</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/svg_ani.css">
+    <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="imgs/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+      <img src="imgs/logo.png" alt="logo" class="logo">
+    </header>
+    <main>
+      <div class="index-section">
+        <svg width="300" height="100" viewBox="0 0 300 100">
+          <text x="50%" y="50%" dy=".35em" text-anchor="middle" fill="#294d87">
+            FAUCET
+          </text>
+        </svg>
+        <section class="info-search">    
+            <p>Medium faucet은 테스트넷 사용자에게 무료 토큰을 제공하는<br>웹 서비스입니다. 50MDM을 무료로 받으세요.</p>
+            <img src="imgs/faucet_50mdm.png" alt="50mdm">            
+            <div class="search">
+              <form class="search-form cf">
+                <select name="chain" class="select">
+                  <option>전체</option>
+                  <option>ETH(erc20)</option>
+                  <option>MDM(erc20)</option>
+                  <option>MDM(MDL)</option>
+                  <option>MDM(BESU)</option>
+                </select>
+                <input type="text" name="search_word" id="" value="" class="" placeholder="테스트넷 주소를 입력하세요">     
+              <button type="submit" formaction="#" class="btn-blue cf">
+                <div class="loading-wrap fl"><div class="loading"></div></div>MDM 보내기</button>              
+            </form>   
+            </div>
+            <!-- <div class="alret-red">            
+              <div class="alret-red-info fl">주소를 확인하세요.</div>
+              <div class="alret-function" onclick="this.parentElement.style.display='none';">&times;</div>
+            </div> -->
+            <div class="alret-green">            
+              <div class="alret-green-info fl">MDM 요청이 완료되었습니다. Medium Wallet을 확인해주세요.</div>
+              <div class="alret-function" onclick="this.parentElement.style.display='none';">&times;</div>
+            </div>
+            <div class="cf">
+              <ul class="mdm-notice">
+                <li>Medium Faucet은 테스트를 위해 Medium Wallat 주소로 소량의 MDM을 전송합니다.<form  class="fr"><button type="submit" formaction="https://chrome.google.com/webstore/detail/medium-wallet/olkbchllhcflpbjfgagahpkjnjioiedg?utm_source=chrome-ntp-icon" formtarget="_blank" class="wallet-btn">Medium Wallet Chrome에 추가하기</button></span></li>
+                <li>공정한 분배를 위해 Faucet은 1시간 마다  1회 실행 할 수 있습니다. </li>
+                <li>제공되는 MDM은 금전적 용도로 사용하실 수 없습니다.</li>               
+              </ul>              
+            </div>
+        </section>  
+      </div>
+    </main>
+    <footer>
+      <p>Copyright 2021 <span class="medium-bold">&copy; MEDIUM.</span> All rights reserved.</p>
+    </footer>
+  </body>
+</html> 
+  
